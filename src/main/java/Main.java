@@ -14,7 +14,7 @@ public class Main {
             Auto auto;
             while (true) {
                 if (!scanner.hasNextInt()) {
-                    System.out.println("Введите число, а не текст");
+                    System.out.println("Введите число (0-250");
                     scanner.next();
                     continue;
                 }
